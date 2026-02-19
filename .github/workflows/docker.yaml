@@ -19,7 +19,6 @@ jobs:
               with: 
                 images: ${{ secrets.REGISTRY_USER }}/webhook_test2
                 tags: | 
-                  type=sha
                   latest
 
             - name: Setup docker engine 
