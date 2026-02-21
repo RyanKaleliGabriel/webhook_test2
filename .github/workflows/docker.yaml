@@ -18,8 +18,7 @@ jobs:
               uses: docker/metadata-action@v5
               with: 
                 images: ${{ secrets.REGISTRY_USER }}/webhook_test2
-                tags: | 
-                  latest
+                tags: latest
 
             - name: Setup docker engine 
               uses: docker/setup-buildx-action@v3
