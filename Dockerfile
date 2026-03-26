@@ -1,3 +1,3 @@
 FROM busybox:latest
 
-CMD ["echo","Hello from webhook test."]
+CMD ["echo","Hello from webhook test"]
